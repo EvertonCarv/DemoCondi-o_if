@@ -23,6 +23,9 @@ namespace Condição_if
             idade = Convert.ToInt32(txtIdade.Text);
             if (idade < 18)
                 MessageBox.Show("Você ainda é menor de idade", "Mensagem");
+            else
+                MessageBox.Show("Você ainda é maior de idade", "Mensagem"); 
+
         }
     }
 }
